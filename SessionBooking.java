@@ -80,7 +80,7 @@ public class SessionBooking {
 	           System.out.println("click 2 for Booking SINGING session");
 	           System.out.println("click 3 for Booking PAINTING session");
 	           int n3=sc3.nextInt();
-	           BookingInsert ub=new BookingInsert ();
+	           bookingupdate ub=new bookingupdate ();
 	           switch(n3) {
 	           case 1:{
                    System.out.println(" Book DANCING session");
